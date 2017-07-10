@@ -1,0 +1,343 @@
+.one
+{
+    max-width:100%;
+    height:30%;
+    text-align:center;
+    background-color: #6f8fd1;
+    padding: 10%;
+}
+
+.two
+{
+    max-width:100%;
+    height:30%;
+    text-align:center;
+    background-color: #6f8fd1;
+    padding: 10%;
+
+}
+
+.clothesContainer{
+
+}
+
+#topsDiv{
+    margin-bottom: 25em;
+}
+
+#topsDiv h2{
+    background-color: #69DBBD;
+    color: white !important;
+}
+
+#outerwearDiv{
+    margin-bottom: 25em;
+}
+
+#outerwearDiv h2{
+ background-color: #69DBBD;
+ color: white !important;
+}
+
+#pantsDiv{
+    margin-bottom: 15em;
+
+}
+
+#pantsDiv h2{
+    background-color: #69DBBD;
+    color: white !important;
+}
+
+#dressesDiv{
+    margin-bottom: 15em;
+
+}
+
+#dressesDiv h2{
+    background-color: #69DBBD;
+    color: white !important;
+}
+
+#undergarmentsDiv{
+    margin-bottom: 15em;
+
+}
+
+#undergarmentsDiv h2{
+    background-color: #69DBBD;
+    color: white !important;
+}
+
+#shoesDiv{
+
+}
+
+#shoesDiv h2{
+    background-color: #69DBBD;
+    color: white !important;
+}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-position: center center;
+    background-size: cover;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    float: left;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 30%;
+        height: 150px;
+    }
+
+    div.img img
+    {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* gradient for pickoutfit header */
+#grad
+{
+    background-color: #62C2FF;
+background: #62C2FF;
+background: -webkit-linear-gradient(left, #62C2FF, yellow);
+background: -o-linear-gradient(right, #62C2FF, #4B76FF);
+background: -moz-linear-gradient(right, #62C2FF, #4B76FF);
+background: linear-gradient(to right, #62C2FF, #4B76FF);
+}
+
+/* gradient for wardrobe header */
+#gradgrn
+{
+    background-color: #65E1A5;
+background: #65E1A5;
+background: -webkit-linear-gradient(left, #65E1A5, #659EA5);
+background: -o-linear-gradient(right, #65E1A5, #659EA5);
+background: -moz-linear-gradient(right, #65E1A5, #659EA5);
+background: linear-gradient(to right, #65E1A5, #659EA5);
+}
+
+/* gradient for home header */
+#gradred
+{
+    background-color: #65E1A5;
+background: #65E1A5;
+background: -webkit-linear-gradient(left, #B00000, #820000);
+background: -o-linear-gradient(right, #B00000, #820000);
+background: -moz-linear-gradient(right, #B00000, #820000);
+background: linear-gradient(to right, #B00000, #820000);
+}
+
+/* gradient for outfit header */
+#gradpurp
+{
+    background-color: #8C4799;
+background: #8C4799;
+background: -webkit-linear-gradient(left, #8C4799, #614799);
+background: -o-linear-gradient(right, #8C4799, #614799);
+background: -moz-linear-gradient(right, #8C4799, #614799);
+background: linear-gradient(to right, #8C4799, #614799);
+}
+
+/* gradient for upload header */
+#gradpink
+{
+    background-color: #D19FD4;
+background: #D19FD4;
+background: -webkit-linear-gradient(left, #D19FD4, #D1BFD4);
+background: -o-linear-gradient(right, #D19FD4, #D1BFD4);
+background: -moz-linear-gradient(right, #D19FD4, #D1BFD4);
+background: linear-gradient(to right, #D19FD4, #D1BFD4);
+}
+
+/* css for calendar on pickoutfit */
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+    width: 100%;
+    background: #62C2FF;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+    font-size:0.8em;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 15.7%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* filter btn */
+.dropbtn {
+    background-color: #BA0000;
+    color: white !important;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+}
